@@ -21,7 +21,7 @@ const Modal = ({movie, genre, showModal, setShowModal} : {
     <>
       {showModal ? (
         <>
-          <div className="flex justify-center items-center overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none">
+          <div className="modal flex justify-center items-center overflow-x-hidden overflow-y-auto h-screen fixed inset-0 z-50 bg-gray-900 bg-opacity-90 outline-none focus:outline-none">
             <div className="relative w-auto my-6 mx-4 lg:mx-auto max-w-md">
               <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
                 <div className="flex items-center justify-between p-5 border-b border-solid border-gray-300 rounded-t">

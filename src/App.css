@@ -9,6 +9,11 @@
   height: 100%;
 }
 
+.body:has(div.modal) {
+  height: 100vh;
+  overflow-y: hidden;
+}
+
 .header {
   background: url("./images/bannerImage.jpg") fixed bottom/cover;
   height: 600px;
