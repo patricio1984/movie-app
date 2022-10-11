@@ -27,7 +27,7 @@ const MovieDetail = ({movie, genre} : {
             loading="lazy"
           />
 
-          <p className="bg-green-500 text-2xl absolute bottom-1 ratingButton flex justify-center items-center">{vote_average}</p>
+          <h2 className="bg-green-500 text-2xl absolute bottom-1 ratingButton flex justify-center items-center">{vote_average}</h2>
 
           <div className="overlay">
             <div className="text">{title}</div>
