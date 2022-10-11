@@ -28,6 +28,7 @@ function App() {
       setAllMovies(responseOne.data.results);
       setGenre(responseTwo.data.genres);
 
+
     })).catch((errors: any) => {
       throw(errors);
     })
@@ -37,7 +38,7 @@ function App() {
     <>
       <Header 
         setMovies={setMovies} 
-        setAllMovies={setAllMovies}      
+        setAllMovies={setAllMovies}    
       />
 
       <RatingFilter 

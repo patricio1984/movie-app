@@ -15,12 +15,12 @@
 }
 
 .header {
-  background: url("./images/bannerImage.jpg") fixed bottom/cover;
+  background: url("./images/bannerImage.webp") fixed bottom/cover;
   height: 600px;
 }
 
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/bannerImage.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/bannerImage.webp");
   height: 700px;
   background-position: center;
   background-repeat: no-repeat;
