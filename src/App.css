@@ -89,13 +89,19 @@
   border-radius: 50%;
   height: 50px;
   width: 50px;
-  right: 27px;
+  right: 60px;
   z-index: 5;
 }
 
 @media all and (max-width: 1024px) {
   .hero-image {
     background-position: center top;
+  }
+}
+
+@media all and (min-width: 1025px) and (max-width: 1300px) {
+  .ratingButton {
+    right: 28px;
   }
 }
 
@@ -106,6 +112,10 @@
 
   .star-svg {
     width: 25px;
+  }
+
+  .ratingButton {
+    right: 5px;
   }
 }
 
